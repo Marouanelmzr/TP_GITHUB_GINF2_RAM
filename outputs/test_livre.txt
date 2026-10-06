@@ -1,2 +1,4 @@
 
 Fatal error: Uncaught Error: Class "Livre" not found in D:\Etudes\GINF2\DevOps\TP_git\TP_GITHUB_GINF2_RAM\tests\test_livre.php:4 Stack trace: #0 {main} thrown in D:\Etudes\GINF2\DevOps\TP_git\TP_GITHUB_GINF2_RAM\tests\test_livre.php on line 4
+
+[OK] Un nouveau livre est disponible [OK] Le getter getIsbn() retourne la bonne valeur [OK] Le getter getTitre() retourne la bonne valeur [OK] Après emprunt, le livre est indisponible [OK] Emprunter un livre déjà emprunté lève une Exception [OK] Après retour, le livre est de nouveau disponible [OK] Rendre un livre déjà disponible lève une Exception [OK] Un ISBN de mauvaise longueur lève une InvalidArgumentException [OK] La méthode __toString formate correctement la chaîne Tous les tests passent.

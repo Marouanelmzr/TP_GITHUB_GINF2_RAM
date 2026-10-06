@@ -9,6 +9,12 @@ class Livre
 
     public function __construct(string $isbn, string $titre, string $auteur)
     {
+        // Nettoyage éventuel des tirets pour compter uniquement les caractères de l'ISBN
+        $isbnPropre = str_replace(['-', ' '], '', $isbn);
+        
+        if (strlen($isbnPropre) !== 10 && strlen($isbnPropre) !== 13) {
+            throw new InvalidArgumentException("L'ISBN doit contenir exactement 10 ou 13 chiffres.");
+        }
 
         $this->isbn = $isbn;
         $this->titre = $titre;

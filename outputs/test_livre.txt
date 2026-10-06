@@ -1,0 +1,2 @@
+
+Fatal error: Uncaught Error: Class "Livre" not found in D:\Etudes\GINF2\DevOps\TP_git\TP_GITHUB_GINF2_RAM\tests\test_livre.php:4 Stack trace: #0 {main} thrown in D:\Etudes\GINF2\DevOps\TP_git\TP_GITHUB_GINF2_RAM\tests\test_livre.php on line 4
